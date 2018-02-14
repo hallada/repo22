@@ -43,7 +43,7 @@ public class Test {
 			System.out.println("Default Chrome");
 		}
 		 
-		driver = new RemoteWebDriver(new URL("http://localhost:444/wd/hub"), dc);
+		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), dc);
 		driver.get("http://localhost:8282/jpetstore/");
 
 		// Premiere page
